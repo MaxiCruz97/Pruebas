@@ -345,6 +345,7 @@ grid-area: musica31;
     width: 80%;
     height: 80%;
     object-fit: cover;
+    transition: all 2s;
 }
 
 .menu{
@@ -392,8 +393,11 @@ font-family: cursive;
     object-fit: cover;
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> rama1
 
 @media only screen and (max-width: 480px) {
     

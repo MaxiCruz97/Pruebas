@@ -392,6 +392,10 @@ font-family: cursive;
     object-fit: cover;
 }
 
+.video_youtube:active{
+    transform: scale(3);
+}
+
 
 @media only screen and (max-width: 480px) {
     

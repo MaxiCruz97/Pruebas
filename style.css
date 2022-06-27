@@ -345,6 +345,7 @@ grid-area: musica31;
     width: 80%;
     height: 80%;
     object-fit: cover;
+    transition: all 2s;
 }
 
 .menu{

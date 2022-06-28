@@ -370,6 +370,11 @@ grid-area: musica31;
     transform: rotate(360deg);
 }
 
+.fotos_recetas:hover{
+    transform: scale(1.5);
+}
+
+
 .musica{
     width: 300px;
     height: 80PX;

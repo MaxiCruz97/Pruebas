@@ -1,6 +1,6 @@
 
 
-body{
+.body{
     background-color: aquamarine;
 }
 
@@ -21,7 +21,7 @@ h1{
 }
 
 
-header nav ul  {
+header nav ul li {
     background-color: lightblue;
     font-family: 'Roboto Mono', monospace;
     border: solid 2px ;

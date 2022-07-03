@@ -54,9 +54,8 @@ img{
 .fotos{
     transition: all 1s;
 }
-.foto_gral:hover{
-    transform: rotate(360deg);
-}
+
+
 
 .fotos_recetas:hover{
     transform: scale(1.5);

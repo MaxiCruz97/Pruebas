@@ -30,15 +30,24 @@
 <body class="body aquamarine">
 
     <header>
-        <nav class="text-end">
-            <div class="container-fluid">
-              <span class="navbar-text"> <a href="../index.html">Inicio</a></span>
-              <span class="navbar-text"> <a href="../Secciones/tragosprecena.html">Tragos Pre-Cena</a></span>
-              <span class="navbar-text"> <a href="../Secciones/tragosdurantelacena.html">Tragos Durante la Cena</a></span>
-              <span class="navbar-text"> <a href="../Secciones/tragospostcena.html">Tragos Post-Cena</a></span>
-              <span class="navbar-text"> <a href="../Secciones/contacto.html">Contactanos</a></span>
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4">
+                <span class="navbar-text text-white"> <a href="../index.html">Inicio</a></span>
+                <span class="navbar-text text-white"> <a href="../Secciones/tragosprecena.html">Tragos Pre-Cena</a></span>
+                <span class="navbar-text text-white"> <a href="../Secciones/tragosdurantelacena.html">Tragos Durante la Cena</a></span>
+                <span class="navbar-text text-white" > <a href="../Secciones/tragospostcena.html">Tragos Post-Cena</a></span>
+                <span class="navbar-text text-white"> <a href="../Secciones/contacto.html">Contactanos</a></span>
+                <span class="text-muted">Toggleable via the navbar brand.</span>
             </div>
-          </nav>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <h5 class="text-white h4">Nuestro Menu</h5>
+            </div>
+        </nav>
     </header>
 
 

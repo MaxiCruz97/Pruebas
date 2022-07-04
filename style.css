@@ -51,17 +51,6 @@ img{
     transform: scale(3);
 }
 
-.fotos{
-    transition: all 1s;
-}
-.foto_gral:hover{
-    transform: rotate(360deg);
-}
-
-.fotos_recetas:hover{
-    transform: scale(1.5);
-}
-
 
 .musica{
     width: 300px;
@@ -85,3 +74,16 @@ font-family: cursive;
 }
 
 
+@media only screen and (max-width: 480px){
+    .row{
+        flex-direction: column;
+    }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 980px){
+    .row{
+        flex-direction: column;
+    }
+
+}

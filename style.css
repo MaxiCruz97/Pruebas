@@ -89,4 +89,8 @@ font-family: cursive;
         flex-direction: column;
     }
 
+    header div div span{    
+        display: table-row-group;
+}
+
 }

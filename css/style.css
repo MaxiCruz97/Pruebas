@@ -1,21 +1,10 @@
 .body {
-  background-color: aquamarine;
+  background-color: grey;
 }
 
 * {
   margin: 10px;
   padding: 0;
-}
-
-.inicio_index {
-  display: flex;
-  align-items: center;
-  font-family: "Roboto Mono", monospace;
-}
-
-h1 {
-  font-family: "Roboto Mono", monospace;
-  color: brown;
 }
 
 img {
@@ -32,6 +21,17 @@ img {
   transition: all 2s;
 }
 
+.video {
+  width: 70%;
+  height: 70%;
+  object-fit: cover;
+}
+
+.musica {
+  width: 300px;
+  height: 80PX;
+}
+
 .redes {
   width: 20px;
   height: 20px;
@@ -43,11 +43,6 @@ img {
   transform: scale(3);
 }
 
-.musica {
-  width: 300px;
-  height: 80PX;
-}
-
 .receta {
   font-family: cursive;
 }
@@ -57,10 +52,9 @@ img {
   align-items: center;
 }
 
-.video {
-  width: 70%;
-  height: 70%;
-  object-fit: cover;
+h1 {
+  font-family: "Roboto Mono", monospace;
+  color: brown;
 }
 
 @media only screen and (max-width: 480px) {

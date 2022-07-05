@@ -1,0 +1,96 @@
+
+
+.body{
+    background-color: aquamarine;
+}
+
+*{
+    margin: 10px;
+    padding: 0;
+}
+
+.inicio_index{
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1{
+    font-family: 'Roboto Mono', monospace;
+    color: brown;
+}
+
+
+img{
+    width: 100% ;
+    height: 100% ;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.img2{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    transition: all 2s;
+}
+
+.menu{
+    display: inline; 
+}
+
+.redes{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    transition: all 2s;
+}
+
+.redes_todas:hover { 
+    transform: scale(3);
+}
+
+
+.musica{
+    width: 300px;
+    height: 80PX;
+}
+
+
+.receta{
+font-family: cursive;
+}
+
+.receta_pre{
+    display: flex;
+    align-items: center;
+}
+
+.video{
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+}
+
+
+@media only screen and (max-width: 480px){
+    .row{
+        flex-direction: column;
+    }
+
+    header div div span{    
+        display: table-row-group;
+}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 980px){
+    .row{
+        flex-direction: column;
+    }
+
+    header div div span{    
+        display: table-row-group;
+}
+
+}

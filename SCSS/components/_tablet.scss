@@ -1,0 +1,12 @@
+
+
+@media only screen and (min-width: 480px) and (max-width: 980px){
+    .row{
+        flex-direction: column;
+    }
+
+    header div div span{    
+        display: table-row-group;
+}
+
+}

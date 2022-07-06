@@ -2,14 +2,18 @@
 
 .receta{
     font-family: cursive;
-    }
+}
     
 .receta_pre{
-        display: flex;
-        align-items: center;
-    }
+    display: flex;
+    align-items: center;
+}
 
 h1{
-        font-family: 'Roboto Mono', monospace;
-        color: brown;
+    font-family: 'Roboto Mono', monospace;
+    color: brown;
+}
+
+.col_texto{
+    color: $bg-textos;
     }

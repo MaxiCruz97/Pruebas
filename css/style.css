@@ -1,5 +1,5 @@
 .body {
-  background-color: grey;
+  background-color: rgb(51, 49, 49);
 }
 
 * {
@@ -55,6 +55,10 @@ img {
 h1 {
   font-family: "Roboto Mono", monospace;
   color: brown;
+}
+
+.col_texto {
+  color: white;
 }
 
 @media only screen and (max-width: 480px) {

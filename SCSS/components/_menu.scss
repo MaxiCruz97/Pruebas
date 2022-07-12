@@ -2,6 +2,12 @@
     text-decoration: none;
 }
 
+.titulo-menu{
+    color: $bg-textos;
+    font-size: 30px;
+    font-family: cursive;
+}
+
 .boton{
     @extend %boton
 }

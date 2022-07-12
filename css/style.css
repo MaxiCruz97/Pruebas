@@ -1,85 +1,91 @@
-.hoja {
-  background-color: rgb(51, 49, 49);
+.hoja{
+  background-color:  rgb(51, 49, 49);
 }
 
-* {
+*{
   margin: 10px;
   padding: 0;
 }
 
-.menu {
+.menu{
   text-decoration: none;
 }
 
-img {
-  width: 100%;
-  height: 100%;
+img{
+  width: 100% ;
+  height: 100% ;
   margin: 0%;
   padding: 0%;
 }
 
-.img2 {
+.img2{
   width: 20%;
   height: 20%;
   object-fit: cover;
   transition: all 2s;
 }
 
-.video {
+.video{
   width: 20%;
   height: 20%;
   object-fit: cover;
 }
 
-.musica {
+.musica{
   width: 300px;
   height: 80PX;
 }
 
-.redes {
+.redes{
   width: 50px;
   height: 50px;
   object-fit: cover;
   transition: all 2s;
+  
 }
 
-.redes_todas:hover {
+.redes_todas:hover { 
   transform: scale(3);
 }
 
-.receta {
+.receta{
   font-family: cursive;
 }
-
-.receta_pre {
+  
+.receta_pre{
   display: flex;
   align-items: center;
 }
 
-h1 {
-  font-family: "Roboto Mono", monospace;
+h1{
+  font-family: 'Roboto Mono', monospace;
   color: brown;
 }
 
-.col_texto {
+.col_texto{
   color: white;
 }
 
-@media only screen and (max-width: 480px) {
-  .row {
-    flex-direction: column;
+
+@media only screen and (max-width: 480px){
+  .row{
+      flex-direction: column;
   }
-  header div div span {
-    display: table-row-group;
-  }
-}
-@media only screen and (min-width: 480px) and (max-width: 980px) {
-  .row {
-    flex-direction: column;
-  }
-  header div div span {
-    display: table-row-group;
+
+  header div div span{    
+  display: table-row-group;
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+
+
+@media only screen and (min-width: 480px) and (max-width: 980px){
+  .row{
+      flex-direction: column;
+  }
+
+  header div div span{    
+      display: table-row-group;
+  }
+
+}

@@ -1,5 +1,5 @@
 .hoja{
-    background-color: $bg-body;
+    background-color: map-get($standard, bg-standard);
 }
 
 *{

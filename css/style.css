@@ -72,6 +72,10 @@ img {
   align-items: center;
 }
 
+h1 {
+  font-family: "Roboto Mono", monospace;
+  color: brown;
+}
 
 .col_texto {
   color: white;
@@ -83,6 +87,13 @@ img {
   }
   header div div span {
     display: table-row-group;
+  }
+  .img2 {
+    height: 60%;
+    width: 60%;
+  }
+  .video {
+    width: 80%;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 980px) {

@@ -95,9 +95,6 @@ h1 {
   .row2 {
     flex-direction: column;
   }
-  .col_vacio {
-    display: none;
-  }
   header div div span {
     display: table-row-group;
   }
@@ -112,9 +109,6 @@ h1 {
 @media only screen and (min-width: 480px) and (max-width: 980px) {
   * {
     margin: 7px;
-  }
-  .col_vacio {
-    display: none;
   }
   header div div span {
     display: table-row-group;

@@ -3,18 +3,6 @@
         margin: 7px;
     }
     
-    .row{
-        flex-wrap: wrap
-    }
-    .row1{
-        flex-wrap: nowrap;
-        justify-content: space-between;
-    }
-
-    .row2{
-        flex-direction: column;
-    }
-    
     .col_vacio{
         display: none;
     }   

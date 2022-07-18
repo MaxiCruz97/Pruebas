@@ -1,7 +1,23 @@
 @media only screen and (min-width: 480px) and (max-width: 980px){
+    *{
+        margin: 7px;
+    }
+    
     .row{
+        flex-wrap: wrap
+    }
+    .row1{
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .row2{
         flex-direction: column;
     }
+    
+    .col_vacio{
+        display: none;
+    }   
 
     header div div span{    
         display: table-row-group;

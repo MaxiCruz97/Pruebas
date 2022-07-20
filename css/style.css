@@ -79,6 +79,7 @@ h1 {
 
 .col_texto {
   color: white;
+  font-family: cursive;
 }
 
 @media only screen and (max-width: 480px) {

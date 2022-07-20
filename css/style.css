@@ -1,127 +1,18 @@
-.boton {
-  border: 2px solid white;
-  padding: 5px;
-}
+/* Error: expected "{".
+ *    ,
+ * 18 |     font-family: cursive;
+ *    |                         ^
+ *    '
+ *   SCSS\components\_textos.scss 18:25  @import
+ *   SCSS\style.scss 7:9                 root stylesheet */
 
-.hoja {
-  background-color: #333131;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a    \2577 \a 18 \2502      font-family: cursive;\d\a    \2502                          ^\a    \2575 \a   SCSS\\components\\_textos.scss 18:25  @import\a   SCSS\\style.scss 7:9                 root stylesheet';
 }
-
-* {
-  margin: 10px;
-  padding: 0;
-}
-
-.menu {
-  text-decoration: none;
-}
-
-.titulo-menu {
-  color: white;
-  font-size: 30px;
-  font-family: cursive;
-}
-
-.titulos {
-  font-family: cursive;
-  color: brown;
-}
-
-img {
-  width: 100%;
-  height: 100%;
-  margin: 0%;
-  padding: 0%;
-}
-
-.img2 {
-  width: 20%;
-  height: 20%;
-  object-fit: cover;
-  transition: all 2s;
-}
-
-.video {
-  width: 20%;
-  height: 20%;
-  object-fit: cover;
-}
-
-.musica {
-  width: 300px;
-  height: 80PX;
-}
-
-.redes {
-  width: 50px;
-  height: 50px;
-  object-fit: cover;
-  transition: all 2s;
-}
-
-.redes_todas:hover {
-  transform: scale(3);
-}
-
-.receta {
-  font-family: cursive;
-}
-
-.receta_pre {
-  display: flex;
-  align-items: center;
-}
-
-h1 {
-  font-family: "Roboto Mono", monospace;
-  color: brown;
-}
-
-.col_texto {
-  color: white;
-  font-family: cursive;
-}
-
-@media only screen and (max-width: 480px) {
-  * {
-    margin: 7px;
-  }
-  .row {
-    flex-wrap: wrap;
-  }
-  .row1 {
-    flex-wrap: nowrap;
-    justify-content: space-between;
-  }
-  .row2 {
-    flex-direction: column;
-  }
-  header div div span {
-    display: table-row-group;
-  }
-  .img2 {
-    height: 60%;
-    width: 60%;
-  }
-  .video {
-    width: 80%;
-  }
-}
-@media only screen and (min-width: 480px) and (max-width: 980px) {
-  * {
-    margin: 7px;
-  }
-  header div div span {
-    display: table-row-group;
-  }
-  .img2 {
-    height: 50%;
-    width: 50%;
-  }
-  .video {
-    height: 100%;
-    width: 50%;
-  }
-}
-
-/*# sourceMappingURL=style.css.map */

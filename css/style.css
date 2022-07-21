@@ -12,6 +12,12 @@
   padding: 0;
 }
 
+.publicidad {
+  width: 60%;
+  float: right;
+  object-fit: cover;
+}
+
 .menu {
   text-decoration: none;
 }

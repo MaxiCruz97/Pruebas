@@ -138,6 +138,13 @@ h1 {
     height: 100%;
     width: 50%;
   }
+  .row2g {
+    flex-direction: column;
+    width: 70%;
+  }
+  .publicidad {
+    right: 5%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

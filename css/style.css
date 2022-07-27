@@ -159,6 +159,9 @@ h1 {
   .publicidad {
     right: 5%;
   }
+  .row_bares {
+    flex-direction: column;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

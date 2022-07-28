@@ -16,3 +16,14 @@
 .boton{
     @extend %boton
 }
+
+.futer{
+    text-decoration: none;
+    color: $bg-textos;
+    font-family: cursive;
+    font-size: 10px;
+}
+
+.pie{
+    background-color: dimgray;
+}

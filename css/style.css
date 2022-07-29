@@ -102,15 +102,8 @@ h1 {
   color: white;
 }
 
-.col_bares {
-  background-color: rgb(255, 222, 179);
-  padding: 0;
-  margin: 0;
-  text-align: center;
-}
-
 .col_ubicacion {
-  background-color: rgb(181, 111, 73);
+  background-color: rgb(255, 222, 179);
   padding: 0;
   margin: 0;
   text-align: center;

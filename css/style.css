@@ -149,6 +149,9 @@ h1 {
   .video {
     width: 80%;
   }
+  .pie {
+    text-align: -webkit-center;
+  }
 }
 @media only screen and (min-width: 480px) and (max-width: 980px) {
   * {

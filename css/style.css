@@ -143,7 +143,7 @@ h1 {
     width: 80%;
   }
   .pie {
-    text-align: -webkit-center;
+    font-size: xx-small;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 980px) {

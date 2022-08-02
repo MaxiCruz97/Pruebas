@@ -175,6 +175,9 @@ h1 {
   .row_bares {
     flex-direction: column;
   }
+  .maps {
+    place-self: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
